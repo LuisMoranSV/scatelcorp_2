@@ -90,7 +90,7 @@ $(".nit").keyup(function() {
 
         $.notify({
             icon: 'pe-7s-server',
-            message: 'El Campo solo admite 9 numeros'
+            message: 'El Campo solo admite 14 numeros'
 
         }, {
             type: 'danger',
@@ -109,7 +109,7 @@ $(".ncr").keyup(function() {
 
         $.notify({
             icon: 'pe-7s-server',
-            message: 'El Campo solo admite 9 numeros'
+            message: 'El Campo solo admite 14 numeros'
 
         }, {
             type: 'danger',
