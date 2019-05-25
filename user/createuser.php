@@ -225,13 +225,13 @@
                                             <div class="col-md-4">
                                                 <div class="form-group">
                                                     <label>DUI</label>
-                                                    <input type="text" class="form-control allownumericwithoutdecimal" id="dui_user" name="dui_user" placeholder="DUI" value="" required>
+                                                    <input type="text" class="form-control allownumericwithoutdecimal dui" id="dui_user" name="dui_user" placeholder="DUI" value="" required length="9">
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="form-group">
                                                     <label>NIT</label>
-                                                    <input type="text" class="form-control allownumericwithoutdecimal" id="nit_user" name="nit_user" placeholder="NIT" value="" required>
+                                                    <input type="text" class="form-control allownumericwithoutdecimal nit" id="nit_user" name="nit_user" placeholder="NIT" value="" required length="14">
                                                 </div>
                                             </div>
                                         </div>

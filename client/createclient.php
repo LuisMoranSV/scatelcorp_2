@@ -246,7 +246,7 @@
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <label>Segundo nombre</label>
-                                                    <input type="text" name="second_name_client" id="second_name_client" class="form-control" placeholder="Segundo nombre">
+                                                    <input type="text" name="second_name_client" id="second_name_client" class="form-control alpha-only" placeholder="Segundo nombre">
                                                 </div>
                                             </div>
                                         </div>
@@ -254,13 +254,13 @@
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <label>Primer apellido</label>
-                                                    <input type="text" class="form-control" name="first_lastname_client" id="first_lastname_client" placeholder="Primer apellido">
+                                                    <input type="text" class="form-control alpha-only" name="first_lastname_client" id="first_lastname_client" placeholder="Primer apellido">
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <label>Segundo apellido</label>
-                                                    <input type="text" name="second_lastname_client" id="second_lastname_client" class="form-control" placeholder="Segundo apellido">
+                                                    <input type="text" name="second_lastname_client" id="second_lastname_client" class="form-control alpha-only" placeholder="Segundo apellido">
                                                 </div>
                                             </div>
                                         </div>
@@ -268,13 +268,13 @@
                                             <div class="col-md-4">
                                                 <div class="form-group">
                                                     <label>NIT</label>
-                                                    <input type="text" class="form-control" id="nit_client" name="nit_client" placeholder="NIT" value="" required>
+                                                    <input type="text" class="form-control allownumericwithoutdecimal nit" id="nit_client" name="nit_client" placeholder="NIT" value="" required>
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="form-group">
                                                     <label>NCR</label>
-                                                    <input type="text" class="form-control" id="ncr_client" name="ncr_client" placeholder="NCR" value="" required>
+                                                    <input type="text" class="form-control allownumericwithoutdecimal ncr" id="ncr_client" name="ncr_client" placeholder="NCR" value="" required>
                                                 </div>
                                             </div>
                                         </div>
@@ -282,7 +282,7 @@
                                             <div class="col-md-5">
                                                 <div class="form-group">
                                                     <label>Numero de telefono</label>
-                                                    <input type="text" class="form-control" placeholder="Numero de telefono" name="phone_number_client" id="phone_number_client" value="" required>
+                                                    <input type="text" class="form-control allownumericwithoutdecimal" placeholder="Numero de telefono" name="phone_number_client" id="phone_number_client" value="" required>
                                                 </div>
                                             </div>
                                         </div>

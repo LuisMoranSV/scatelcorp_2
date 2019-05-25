@@ -218,7 +218,7 @@
                                             <div class="col-md-2">
                                                 <div class="form-group">
                                                     <label>Versión de la cotización</label>
-                                                    <input type="text" name="quotation_version" id="quotation_version" class="form-control" placeholder="Versión" required>
+                                                    <input type="text" name="quotation_version" id="quotation_version" class="form-control allownumericwithoutdecimal" placeholder="Versión" required>
                                                 </div>
                                             </div>
                                             <div class="col-md-5">
@@ -254,7 +254,7 @@
                                             <div class="col-md-2">
                                                 <div class="form-group">
                                                     <label>Val. cotizacion</label>
-                                                    <input type="text" class="form-control" placeholder="Valides de la cotización" name="quotation_valid" id="quotation_valid" value="" required>
+                                                    <input type="text" class="form-control allownumericwithoutdecimal" placeholder="Valides de la cotización" name="quotation_valid" id="quotation_valid" value="" required>
                                                 </div>
                                             </div>
                                             <div class="col-md-3">
@@ -270,7 +270,7 @@
                                             <div class="col-md-3">
                                                 <div class="form-group">
                                                     <label>Tiempo de entrega</label>
-                                                    <input type="text" name="quotation_deliverytime" id="quotation_deliverytime" class="form-control" placeholder="15 dias" required>
+                                                    <input type="text" name="quotation_deliverytime" id="quotation_deliverytime" class="form-control allownumericwithoutdecimal" placeholder="15 dias" required>
                                                 </div>
                                             </div>
                                         </div>
@@ -350,6 +350,7 @@
 <!--   Core JS Files   -->
 <script src="../assets/js/jquery-1.10.2.js" type="text/javascript"></script>
 <script src="../assets/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="../js/validations.js" type="text/javascript"></script>
 
 <!--  Checkbox, Radio & Switch Plugins -->
 <script src="../assets/js/bootstrap-checkbox-radio-switch.js"></script>

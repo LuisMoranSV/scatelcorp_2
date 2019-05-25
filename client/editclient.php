@@ -283,7 +283,7 @@
                                             <div class='col-md-6'>
                                                 <div class='form-group'>
                                                     <label>Segundo nombre</label>
-                                                    <input type='text' name='second_name_client' id='second_name_client' class='form-control' placeholder='Segundo nombre' value='". $row[1] ."'>
+                                                    <input type='text' name='second_name_client' id='second_name_client' class='form-control alpha-only' placeholder='Segundo nombre' value='". $row[1] ."'>
                                                 </div>
                                             </div>
                                         </div>
@@ -291,13 +291,13 @@
                                             <div class='col-md-6'>
                                                 <div class='form-group'>
                                                     <label>Primer apellido</label>
-                                                    <input type='text' class='form-control' name='first_lastname_client' id='first_lastname_client' placeholder='Primer apellido' value='". $row[2] ."'>
+                                                    <input type='text' class='form-control alpha-only' name='first_lastname_client' id='first_lastname_client' placeholder='Primer apellido' value='". $row[2] ."'>
                                                 </div>
                                             </div>
                                             <div class='col-md-6'>
                                                 <div class='form-group'>
                                                     <label>Segundo apellido</label>
-                                                    <input type='text' name='second_lastname_client' id='second_lastname_client' class='form-control' placeholder='Segundo apellido' value='". $row[3] ."'>
+                                                    <input type='text' name='second_lastname_client' id='second_lastname_client' class='form-control alpha-only' placeholder='Segundo apellido' value='". $row[3] ."'>
                                                 </div>
                                             </div>
                                         </div>
@@ -305,13 +305,13 @@
                                             <div class='col-md-4'>
                                                 <div class='form-group'>
                                                     <label>NIT</label>
-                                                    <input type='text' class='form-control' id='nit_client' name='nit_client' placeholder='NIT' required value='". $row[4] ."'>
+                                                    <input type='text' class='form-control allownumericwithoutdecimal nit' id='nit_client' name='nit_client' placeholder='NIT' required value='". $row[4] ."'>
                                                 </div>
                                             </div>
                                             <div class='col-md-4'>
                                                 <div class='form-group'>
                                                     <label>NCR</label>
-                                                    <input type='text' class='form-control' id='ncr_client' name='ncr_client' placeholder='NCR' required value='". $row[5] ."'>
+                                                    <input type='text' class='form-control allownumericwithoutdecimal ncr' id='ncr_client' name='ncr_client' placeholder='NCR' required value='". $row[5] ."'>
                                                 </div>
                                             </div>
                                         </div>
@@ -319,7 +319,7 @@
                                             <div class='col-md-5'>
                                                 <div class='form-group'>
                                                     <label>Numero de telefono</label>
-                                                    <input type='text' class='form-control' placeholder='Numero de telefono' name='phone_number_client' id='phone_number_client' value='". $row[6] ."' required>
+                                                    <input type='text' class='form-control allownumericwithoutdecimal' placeholder='Numero de telefono' name='phone_number_client' id='phone_number_client' value='". $row[6] ."' required>
                                                 <input type='hidden' name='client_id' id='client_id' value='". $client_id ."'>
                                                 </div>
                                             </div>

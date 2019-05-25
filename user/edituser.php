@@ -268,13 +268,13 @@
                                             <div class='col-md-4'>
                                                 <div class='form-group'>
                                                     <label>DUI</label>
-                                                    <input type='number' class='form-control allownumericwithoutdecimal' id='dui_user' name='dui_user' placeholder='DUI' value='". $row[7] ."' required>
+                                                    <input type='number' class='form-control allownumericwithoutdecimal dui' id='dui_user' name='dui_user' placeholder='DUI' value='". $row[7] ."' required>
                                                 </div>
                                             </div>
                                             <div class='col-md-4'>
                                                 <div class='form-group'>
                                                     <label>NIT</label>
-                                                    <input type='number' class='form-control allownumericwithoutdecimal' id='nit_user' name='nit_user' placeholder='NIT' value='". $row[8] ."' required>
+                                                    <input type='number' class='form-control allownumericwithoutdecimal nit' id='nit_user' name='nit_user' placeholder='NIT' value='". $row[8] ."' required>
                                                 </div>
                                             </div>
                                         </div>
