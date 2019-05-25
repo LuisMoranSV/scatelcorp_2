@@ -300,8 +300,20 @@
 
                                         <button type='submit' class='btn btn-info btn-fill pull-right'>Guardar</button>
 
-                                        <div class='clearfix'></div>
                                     </form>
+                                    <div class='clearfix'>
+                                    <form action='exportPDF.php' method='post' target='_blank'>
+                                        <input type='hidden' value='". $row[0] ."' name='quotation_id' />
+                                        <input type='hidden' value='". $row[1] ."' name='quotation_version' />
+                                        <input type='hidden' value='". $row[2] . "' name='quotation_proyect' />
+                                        <input type='hidden' value='". $row[3] ."' name='quotation_valid' />
+                                        <input type='hidden' value='". $row[7] ."' name='quotation_payment'/>
+                                        <input type='hidden' value='". $row[5] ."' name='quotation_deliverytime' />
+                                        <input type='hidden' value='". $row[4] ."' name='quotation_conditions' />
+                                        <input type='hidden' value='". $row[6] ."' name='quotation_warranty' />
+                                        <button type='' class='btn btn-warning btn-fill pull-right' id='export'>Exportar PDF</button>
+                                    </form
+                                    </div>
                                     ");
     }
                                         ?>
@@ -374,5 +386,18 @@
 
 <!-- Light Bootstrap Table DEMO methods, don't include it in your project! -->
 <script src="../assets/js/demo.js"></script>
+
+<script type="text/javascript">
+
+    $(document).ready(function(evt){
+        // $("#export").click(function(evt){
+        //     evt.preventDefault();
+        //     window.open('exportPdf.php', '_blank');
+        //     console.log("Open");
+            
+        // });
+    });
+
+</script>
 
 </html>
