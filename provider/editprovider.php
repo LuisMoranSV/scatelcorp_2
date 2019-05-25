@@ -306,13 +306,13 @@
                                             <div class='col-md-4'>
                                                 <div class='form-group'>
                                                     <label>NIT</label>
-                                                    <input type='text' class='form-control allownumericwithoutdecimal' id='nit_provider' name='nit_provider' placeholder='NIT'  value='". $row[4] ."'  required>
+                                                    <input type='text' class='form-control allownumericwithoutdecimal nit' id='nit_provider' name='nit_provider' placeholder='NIT'  value='". $row[4] ."'  required>
                                                 </div>
                                             </div>
                                             <div class='col-md-4'>
                                                 <div class='form-group'>
                                                     <label>NCR</label>
-                                                    <input type='text' class='form-control allownumericwithoutdecimal' id='ncr_provider' name='ncr_provider' placeholder='NCR'  value='". $row[5] ."'  required>
+                                                    <input type='text' class='form-control allownumericwithoutdecimal ncr' id='ncr_provider' name='ncr_provider' placeholder='NCR'  value='". $row[5] ."'  required>
                                                 </div>
                                             </div>
                                         </div>
